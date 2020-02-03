@@ -83,7 +83,7 @@ spark-submit --class loganalyzer.LogAnalytics \
 <full-path-to-accesslogparam.confr> <path-of-output-file-dir>
 
 Note: 
-pass config file path inclusing file name
+pass config file path including file name
 pass path of the output file dir
 
 ### Running it in docker
