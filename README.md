@@ -33,9 +33,9 @@ Incase required configuration properties are not set, then the application exits
   	  `E.g.- lmsmith.tezcat.com - - [01/Jul/1995:00:02:20 -0400] "GET /images/NASA-logosmall.gif HTTP/1.0" 200 786`
   	  String split functions have been used to derive date and other attributes based on the assumption that the data log line will follow this format.
 
-2. When log-lines are tokenized using tokenizer **SPACE** (" "), there are entries with-
-	* *Reading between " " value as one column and cleansing to take url removing method and protocal
-	* *Creating variable with all http response codes to remove bad data from zip file if not matching with list of values then the dat awill go to rejected file
+2. Reading between " " value as one column and cleansing to take url removing method and protocal
+
+3. When log-lines are tokenized using tokenizer **SPACE** (" "), there are entries repeated " ", so these data becoming bad records. Writing bad data into file appyting logic filtering response code is not number and not between 100 to 900.
 	
 3. To evaluate topNurls, creating list of values in config file - excluding 304 and 404, if wants include them just add it in config file
 	* *filtering null record while fetching top N url's with applying filter condition
