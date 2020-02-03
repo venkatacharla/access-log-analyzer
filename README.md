@@ -8,13 +8,13 @@ Nasa Web Access Log Analyzer Application
 ### Code walkthrough
 Input Download URL - ftp://ita.ee.lbl.gov/traces/NASA_access_log_Jul95.gz	
 Created project access-log-analyzer to get Top N Url and Visitor and run the test cases
-1. src/main/scala
-	* *access-log-analyzer.UtilityCode.scala* - Created object with all functions to call in processing object.
-	* *access-log-analyzer.LogAnalytics.scala* - The spark Dataset processing logic is present here. This is the one will create 
+1. src/main/scala/oganalyzer
+	* *UtilityCode.scala* - Created object with all functions to call in processing object.
+	* *LogAnalytics.scala* - The spark Dataset processing logic is present here. This is the one will create 
 2. src/main/resources
 	* *accesslogparam.conf* - all configurations are maintained in a Typesafe config file.
-3. src/test/scala
-	* *access-log-analyzer.LogAnalysisTestCase.scala* - This is the Unit test class for LogAnalytics.
+3. src/test/scala/test/oganalyzer
+	* *LogAnalysisTestCase.scala* - This is the Unit test class for LogAnalytics.
 
 ### Configurations
 Configuration file name- *accesslogparam.conf*
