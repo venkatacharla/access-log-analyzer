@@ -39,6 +39,12 @@ Incase required configuration properties are not set, then the application exits
 	
 3. To evaluate topNurls, creating list of values in config file - excluding 304 and 404, if wants include them just add it in config file
 	* *filtering null record while fetching top N url's with applying filter condition
+	
+### Output files
+It will create 3 output file
+1. Rejected record files
+2. Top url fil
+3. Top visitor file
 
 ### Software versions
 	- Scala version- 2.11.8
@@ -77,7 +83,7 @@ Update accessloganalyzer.conf environment specific properties.
 Run application
 
 #### Command to execute	
-```
+
 spark-submit --class loganalyzer.LogAnalytics \
 --master local[4] <full-path-to-jar's-dir>/AccessLogStats.jar \
 <full-path-to-accesslogparam.confr> <path-of-output-file-dir>
@@ -88,11 +94,13 @@ pass path of the output file dir
 
 ### Running it in docker
 To run this docker file
-- Download it from https://1drv.ms/u/s!AqoZASkgVNRcaU8YLBCyu1PUDqs?e=Ar7G3o
-- Run `gzip -d spark-docker.tar.gz`
-- Run `docker load --input spark-docker.tar`
-- Run `docker run -p 4040:4040 -v <your_host_path>/spark-data:/opt/spark-data spark-docker:2.3.3`
-- The output will be written to <your_host_path>/spark-data/NasaWebAccessStats/ouput
+- Download below files from google drive: (i will share the files)
+docker-run-build.sh --
+spark-scala-sbt.tar --
+-Copy to preferred location
+- Run "docker load --input spark-scala-sbt.tar"
+- Run "sh docker-run-build.sh"
+- The output will be written to <above-preferred-location>/ouput
 	
 
 
