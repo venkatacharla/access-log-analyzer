@@ -1,0 +1,15 @@
+frank.mtsu.edu - - [03/Jul/1995:02:41:15 -0400] "GET /images/" "HTTP/1.0\"" 404
+141.102.80.253 - - [07/Jul/1995:11:57:49 -0400] "GET /history/apollo/apollo.html" "HTTP/1.0\"" 404
+ris1_u27.rsoc.rockwell.com - - [14/Jul/1995:10:37:53 -0400] "GET /history/apollo/apollo.html" "HTTP/1.0\"" 404
+01-dynamic-c.wokingham.luna.net - - [27/Jul/1995:17:02:29 -0400] "GET /images/NASA-logosmall.gif HTTP/1.0" 304 0
+image58.med.uth.tmc.edu - - [07/Jul/1995:14:25:59 -0400] "GET /history/apollo/apollo.html HTTP/1.0" 304 91
+www-d4.proxy.aol.com - - [09/Jul/1995:14:20:19 -0400] "GET /procurement.html HTTP/1.0" 404 -
+lmsmith.tezcat.com - - [01/Jul/1995:00:02:19 -0400] "GET /shuttle/countdown/count.gif HTTP/1.0" 200 40310
+lmsmith.tezcat.com - - [01/Jul/1995:00:02:20 -0400] "GET /images/NASA-logosmall.gif HTTP/1.0" 200 786
+unicomp6.unicomp.net - - [01/Jul/1995:00:02:20 -0400] "GET /images/kscmap-tiny.gif HTTP/1.0" 304 3635
+unicomp6.unicomp.net - - [01/Jul/1995:00:02:21 -0400] "GET /images/kscmap-tiny.gif HTTP/1.0" 200 2537
+lmsmith.tezcat.com - - [01/Jul/1995:00:02:21 -0400] "GET /images/kscmap-tiny.gif HTTP/1.0" 200 1204
+155.31.22.66 - - [26/Jul/1995:18:15:28 -0400] "GET /history/mercury/mercury.html HTTP/1.0" 304 0
+titan02 - - [18/Jul/1995:15:58:12 -0400] "GET /Harvest/cgi-bin/BrokerQuery.pl.cgi?query=oms&host=titan04.ksc.nasa.gov%3A8501&caseflag=on&wordflag=on&errorflag=0&opaqueflag=on&descflag=on&verbose=on&maxresultflag=50 HTTP/1.0" 500 0
+192.83.171.94 - - [17/Jul/1995:21:45:09 -0400] "POST /images/getstats.gif HTTP/1.0" 501 -
+192.83.171.94 - - [17/Jul/1995:21:45:09 -0400] "POST /images/getstats.gif HTTP/1.0"
