@@ -58,7 +58,7 @@ object UtilityCode {
     */
   //Creating function to get reject records
   def getRejectDF(rawDataFrame: DataFrame, colName: String,validResponseCodes:Seq[String]): DataFrame = {
-    rawDataFrame.filter(!col(colName).isin(validResponseCodes: _*) || col(colName).isNull)
+    rawDataFrame.filter(!col(colName).rlike(literal="([1-5][0-9][0-9])") || col(colName).isNull)
   }
 
   /**
