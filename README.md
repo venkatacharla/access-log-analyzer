@@ -94,7 +94,7 @@ pass path of the output file dir
 
 ### Running it in docker
 To run this docker file
-- Download below files from google drive: (i will share the files)
+- Download below files from google drive: (i will share the files via email)
 docker-run-build.sh --
 spark-scala-sbt.tar --
 -Copy to preferred location
